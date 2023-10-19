@@ -1,7 +1,7 @@
 // src/Chat.js
 import React, { useState, useEffect, CSSProperties } from "react";
-import { handleSendMessage } from "./utils";
 import { Button, Col, Divider, Input, Row } from "antd";
+import { handleSendMessage } from "./utils";
 
 const chatStyles: CSSProperties = {
   border: "4px solid blue",

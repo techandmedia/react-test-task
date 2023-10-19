@@ -9,7 +9,6 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <ConfigProvider theme={theme}>
       <Component {...pageProps} />
-      <Button type="primary">Button</Button>
     </ConfigProvider>
   );
 }
